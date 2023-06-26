@@ -20,7 +20,7 @@ conda create -n envName python=3.7
 ```
 私人(新建环境文件夹envs)：
 ```
-conda create -p ~/envs -n envName python=3.7
+conda create -p ~/envs/envName python=3.7
 ```
 ### 切换环境
 ```
