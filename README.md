@@ -29,7 +29,9 @@ conda create -p ~/envs/envName python=3.7
 conda activate envName
 ```
 私人：
+```
 conda activate ~/envs/envName
+```
 
 ### 切换环境后，在已有环境里安装package
 
