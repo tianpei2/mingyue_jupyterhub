@@ -47,6 +47,6 @@ conda install ipykernel
 ## 3. 将conda环境写入jupyter的kernel中
 
 ```
-python -m ipykernel install --user  --name envName --display-name "kernelName"
+python -m ipykernel install --user  --name kernelName
 ```
 
