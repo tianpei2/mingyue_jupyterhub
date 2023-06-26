@@ -12,23 +12,23 @@ source .bashrc
 ```
 conda env list
 ```
-### 配置环境（例:python3.7）
+### 可自行配置环境（例:python3.7）
 
-公共：
+公开：
 ```
 conda create -n envName python=3.7
 ```
-私人（创建 ~/envs）：
+仅自己（创建 ~/envs）：
 ```
 conda create -p ~/envs/envName python=3.7
 ```
 ### 切换环境
 
-公共：
+公开：
 ```
 conda activate envName
 ```
-私人：
+仅自己：
 ```
 conda activate ~/envs/envName
 ```
