@@ -18,7 +18,7 @@ conda env list
 ```
 conda create -n envName python=3.7
 ```
-私人(新建环境文件夹envs)：
+私人(创建 ~/envs)：
 ```
 conda create -p ~/envs/envName python=3.7
 ```
