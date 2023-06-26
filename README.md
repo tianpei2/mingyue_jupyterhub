@@ -12,7 +12,7 @@ source .bashrc
 ```
 conda env list
 ```
-### 配置环境(例:python3.7)
+### 配置环境（例:python3.7）
 
 公共：
 ```
@@ -37,7 +37,7 @@ conda activate ~/envs/envName
 ```
 conda list
 ```
-然后安装package(例:tensorflow-gpu 2.4)
+然后安装package（例:tensorflow-gpu 2.4）
 ```
 conda install tensorflow-gpu==2.4
 ```
