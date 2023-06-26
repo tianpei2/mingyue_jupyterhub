@@ -14,7 +14,7 @@ conda env list
 ```
 ### 可自行配置环境（例:python3.7）
 
-公开：
+公共：
 ```
 conda create -n envName python=3.7
 ```
@@ -24,7 +24,7 @@ conda create -p ~/envs/envName python=3.7
 ```
 ### 切换环境
 
-公开：
+公共：
 ```
 conda activate envName
 ```
