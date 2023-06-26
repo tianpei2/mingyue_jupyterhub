@@ -28,9 +28,13 @@ conda activate envName
 ```
 ### 在已有环境里安装package
 
-切换到想安装的环境
+切换环境
 ```
 conda activate envName
+```
+查看当前环境下packages
+```
+conda list
 ```
 然后安装package(例:tensorflow-gpu 2.4)
 ```
