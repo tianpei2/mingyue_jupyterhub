@@ -8,11 +8,11 @@ source .bashrc
 
 ## 2. conda环境
 
-### 1. 查看已有环境及目录
+### 查看已有环境及目录
 ```
 conda env list
 ```
-### 2. 配置环境(例:python3.7)
+### 配置环境(例:python3.7)
 
 公共：
 ```
@@ -22,11 +22,11 @@ conda create -n envName python=3.7
 ```
 conda create -p ~/envs -n envName python=3.7
 ```
-### 3. 切换环境
+### 切换环境
 ```
 conda activate envName
 ```
-### 4. 在已有环境里安装package
+### 在已有环境里安装package
 
 切换到想安装的环境
 ```
@@ -36,7 +36,7 @@ conda activate envName
 ```
 conda install tensorflow-gpu==2.4
 ```
-### 5.在新环境中安装kernel
+### 在新环境中安装kernel
 ```
 conda install ipykernel
 ```
