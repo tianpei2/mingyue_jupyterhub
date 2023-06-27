@@ -35,11 +35,11 @@ conda activate ~/envs/envName
 
 ### 切换环境后，在已有环境里安装package
 
-查看当前环境下packages
+查看当前环境下packages：
 ```
 conda list
 ```
-然后安装package（例:tensorflow-gpu 2.4）
+然后安装package（例:tensorflow-gpu 2.4）：
 ```
 conda install tensorflow-gpu==2.4
 ```
@@ -51,4 +51,8 @@ conda install ipykernel
 
 ```
 python -m ipykernel install --user  --name kernelName
+```
+查看kernel目录：
+```
+jupyter kernelspec list
 ```
