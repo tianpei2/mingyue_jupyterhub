@@ -1,7 +1,7 @@
 # mingyue_jupyterhub
 
 ## 1. 激活conda
-登入linux，在~目录下
+登入linux或jupyterhub Terminal，在~目录下
 ```
 source .bashrc
 ```
