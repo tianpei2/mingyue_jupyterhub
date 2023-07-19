@@ -47,6 +47,13 @@ conda install tensorflow-gpu==2.4
 ```
 conda install ipykernel
 ```
+### 删除环境
+```
+conda env remove -p  ~/envs/envName
+
+conda remove -n  envName --all
+```
+
 ## 3. 将conda环境写入jupyter的kernel中
 
 ```
@@ -56,3 +63,8 @@ python -m ipykernel install --user  --name kernelName
 ```
 jupyter kernelspec list
 ```
+### 删除kernel
+```
+jupyter kernelspec remove kernelName
+```
+
