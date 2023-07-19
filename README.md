@@ -63,7 +63,7 @@ python -m ipykernel install --user  --name kernelName
 ```
 jupyter kernelspec list
 ```
-### 删除kernel
+删除kernel
 ```
 jupyter kernelspec remove kernelName
 ```
