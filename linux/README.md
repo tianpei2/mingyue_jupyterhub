@@ -23,3 +23,9 @@ ps -aux | grep jupyter
 ```
 mount -t cifs -o username=Bob,password=123456 //192.168.0.102/Share /usr/local/bin/code
 ```
+
+## 3. 本地文件上传linux
+```
+scp /download/index.html root@39.97.235.240:/var/www/html
+# 该命令将本地 /download 目录下 index.html 上传至 39.97.235.240 服务器 root 用户下 /var/www/html 目录
+```
