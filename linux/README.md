@@ -31,7 +31,7 @@ scp /download/index.html root@39.97.235.240:/var/www/html
 ```
 ## 4. 创建linux用户
 ```
-sudo useradd -d "/home/tianpei" -m -s "/bin/bash" tianpei
+useradd -d "/home/tianpei" -m -s "/bin/bash" tianpei
 ```
 
 `-d "/home/tt"`：就是指定`/home/tt`为主目录
