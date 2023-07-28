@@ -34,8 +34,8 @@ scp /download/index.html root@39.97.235.240:/var/www/html
 useradd -d "/home/tianpei" -m -s "/bin/bash" tianpei
 ```
 
-`-d "/home/tt"`：就是指定`/home/tt`为主目录
+`-d "/home/tianpei"`：就是指定`/home/tianpei`为主目录
 
-`-m` 就是如果`/home/tt`不存在就强制创建
+`-m`: 就是如果`/home/tianpei`不存在就强制创建
 
-`-s` 就是指定`shell`版本
+`-s`: 就是指定`shell`版本
